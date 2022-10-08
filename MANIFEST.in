@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include custom_preciholesports *.css
+recursive-include custom_preciholesports *.csv
+recursive-include custom_preciholesports *.html
+recursive-include custom_preciholesports *.ico
+recursive-include custom_preciholesports *.js
+recursive-include custom_preciholesports *.json
+recursive-include custom_preciholesports *.md
+recursive-include custom_preciholesports *.png
+recursive-include custom_preciholesports *.py
+recursive-include custom_preciholesports *.svg
+recursive-include custom_preciholesports *.txt
+recursive-exclude custom_preciholesports *.pyc
